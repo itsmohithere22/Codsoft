@@ -1,0 +1,208 @@
+/* General Styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Navbar Styles */
+
+.navbar {
+    background-color: darkcyan;
+    height: 50px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+/* Login/Register Styles */
+
+.login-register {
+    text-align: right;
+    padding: 10px;
+}
+
+.login-register button {
+    margin-left: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Package Styles */
+
+.packages {
+    text-align: center;
+    padding: 40px;
+}
+
+.packages h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bronze {
+    background-color: #e1c699;
+}
+
+.silver {
+    background-color: #c0c0c0;
+}
+
+.gold {
+    background-color: #ffd700;
+}
+
+.diamond {
+    background-color: #b9f2ff;
+}
+
+.platinum {
+    background-color: #e5e4e2;
+}
+
+/* Enquiry Section Styles */
+
+footer {
+    background-color: goldenrod;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+.enquiry-section h3 {
+    margin-bottom: 20px;
+}
+
+.enquiry-section input,
+.enquiry-section textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.enquiry-section button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+    /* Header Styles */
+
+header {
+    background-image: url('https://cdn.tripways.com/2020/11/07094043/golden-temple-3.jpg');
+    background-size: cover;
+    background-position: fit;
+    background-repeat: no-repeat;
+    height: 450px;
+    position: relative;
+}
+
+.header-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Header Content Styles */
+
+.header-content {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.header-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.header-content p {
+    font-size: 18px;
+}
+.buy-package {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-package:hover {
+    background-color: #45a049;
+}
+
+.buy-package:active {
+    background-color: #3d8b40;
+}
